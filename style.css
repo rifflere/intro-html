@@ -23,8 +23,8 @@ h1 {
     color: rgb(0, 0, 0);
     font-size: 48pt;
     font-family: 'Optima', sans-serif;
-    text-decoration: underline
-    text-align: center
+    text-decoration: underline;
+    text-align: center;
 }
 
 h2 {
@@ -34,9 +34,14 @@ h2 {
     color: rgb(0, 0, 0);
     font-size: 30pt;
     font-family: 'Optima', sans-serif;
-    text-decoration: underline
-    text-align: left
+    text-decoration: underline;
+    text-align: center;
 }
+
+p {
+    font-size: 12pt;
+    font-famiy: 'Helventica', sans-serif;
+    
 
 ul {
     list-style-type: none;
