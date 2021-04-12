@@ -42,7 +42,25 @@ p {
     font-size: 12pt;
     font-famiy: 'Helventica', sans-serif;
     
+.column {
+  float: left;
+  width: 33.33%;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }    
+    
+    
 ul {
     list-style-type: none;
     grid-row-start: 2;
@@ -51,10 +69,6 @@ ul {
     font-size: 14pt;
 } 
 
-
-li {
-    padding-top: 5px;
-}
 
 a {
     color: rgb(28, 33, 104);
@@ -74,3 +88,12 @@ ul {
   padding: 0;
 }
     
+li {
+  display: inline;
+}
+    
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
