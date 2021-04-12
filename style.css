@@ -47,6 +47,28 @@ p {
   width: 33.33%;
 }
 
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #892962;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
