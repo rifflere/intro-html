@@ -45,8 +45,8 @@ img {
     
 button.purple {
     background-color: #892962;
-    border: bold 1px black;
-    color: white;
+    border: bold 1px #000000;
+    color: #ffffff;
     font-size: 24px;
     width: 300px;
     padding: 15px 32px;
@@ -78,7 +78,7 @@ a {
   }
     
 div.footer {
-  background-color: #ffffff;
+  background-color: #c9a7bc;
   text-align: center;
   padding: 10px;
 }
