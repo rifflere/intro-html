@@ -3,6 +3,7 @@ div.purpleheader {
   width: 80%;
   padding: 2px;
   border: 2px solid;
+  align: center;
 }
 
 body {
@@ -19,7 +20,7 @@ h1 {
     font-size: 40pt;
     font-family: 'Georgia', serif;
     width: 500px;
-    text-align: center;
+    align: center;
 }
 
 h2 {
