@@ -49,20 +49,12 @@ p {
   color: white;
 }
     
-.column1 {
-  float: left;
-  width: 33.33%;
-}
-
-.column2 {
-  float: center;
-  width: 33.33%;
-}
-   
-.column3 {
-  float: right;
-  width: 33.33%;
-}
+div1 {
+    column-count:3;
+    column-gap:40;
+    column-rule: 1px solid;
+    column-width: 300px      
+    }
     
 /* The navbar container */
 topnav {
