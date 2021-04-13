@@ -34,6 +34,22 @@ p {
     font-size: 12pt;
     font-famiy: 'Helvetica', sans-serif;
     
+.button1 {
+    background-color: #892962;
+    border: bold 1px black;
+    color: white;
+    font-size: 24px;
+    width: 300px;
+    padding: 15px 32px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    }
+    
+.button1:hover {
+  background-color: #e362af; 
+  color: white;
+}
+    
 .column1 {
   float: left;
   width: 33.33%;
