@@ -76,14 +76,6 @@ div.columns {
     column-width: 200px;
   padding:100px;
     }
-
-a {
-    color: rgb(28, 33, 104);
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    vertical-align: bottom;
-  }
     
 div.footer {
   background-color: #c9a7bc;
