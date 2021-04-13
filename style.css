@@ -30,7 +30,8 @@ h2 {
 }
 
 p {
-    font-size: 14pt;
+    text-indent:40px;
+  font-size: 14pt;
     font-famiy: 'Helvetica', sans-serif;
   padding: 30px;
   align: center;
