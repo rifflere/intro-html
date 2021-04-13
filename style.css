@@ -33,8 +33,16 @@ p {
     font-size: 12pt;
     font-famiy: 'Helvetica', sans-serif;
 }
+
+img {
+    height: 100px;
+    width: 100px;
+    border: solid 1px; 
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
     
-.button1 {
+button.1 {
     background-color: #892962;
     border: bold 1px black;
     color: white;
@@ -45,7 +53,7 @@ p {
     transition-duration: 0.3s;
     }
     
-.button1:hover {
+button.1:hover {
   background-color: #e362af; 
   color: white;
 }
@@ -109,14 +117,6 @@ a {
     position: relative;
     vertical-align: bottom;
   }
-
-img {
-    height: 100px;
-    width: 100px;
-    border: solid 1px; 
-    border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
     
 ul {
   list-style-type: none;
