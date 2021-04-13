@@ -1,23 +1,14 @@
-div.header {
+div.purpleheader {
   background-color: ##c9a7bc;
-  text-align: center;
   padding: 20px;
+  border: 5px solid;
 }
 
 body {
     background: #ffffff;
     font-family: 'Helvetica', sans-serif;
     color: #000;
-}
-
-body:after {
-    content: "CSS by Rebecca Riffle";
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    font-size: 10pt;
+    align: center;
 }
 
 h1 {
@@ -61,6 +52,7 @@ button.purple {
     padding: 15px 32px;
     border-radius: 8px;
     transition-duration: 0.3s;
+  align: center;
     }
     
 button.purple:hover {
@@ -73,7 +65,8 @@ div.columns {
   align: center;
     column-gap:50;
     column-rule: 1px solid;
-    column-width: 250px      
+    column-width: 250px;
+  padding:50px;
     }
 
 a {
@@ -88,4 +81,14 @@ div.footer {
   background-color: #ffffff;
   text-align: center;
   padding: 10px;
+}
+
+body:after {
+    content: "CSS by Rebecca Riffle";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 10pt;
 }
