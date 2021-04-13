@@ -1,3 +1,11 @@
+div.header {
+  background-color: ##c9a7bc;
+  text-align: center;
+  padding: 20px;
+}
+
+Result
+
 body {
     background: #ffffff;
     font-family: 'Helvetica', sans-serif;
