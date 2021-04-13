@@ -1,10 +1,7 @@
 body {
     background: #ffffff;
-    font-family: 'Optima', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: #000;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 300px auto;
 }
 
 body:after {
@@ -18,43 +15,48 @@ body:after {
 }
 
 h1 {
-    padding: 10px;
+    padding: 5px;
     border-bottom-style: solid
-    color: rgb(0, 0, 0);
+    color: rgb(137, 41, 98);
     font-size: 48pt;
-    font-family: 'Optima', sans-serif;
-    text-decoration: underline;
+    font-family: 'Garamond', sans-serif;
     text-align: center;
 }
 
 h2 {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    color: rgb(0, 0, 0);
-    font-size: 30pt;
-    font-family: 'Optima', sans-serif;
-    text-decoration: underline;
+    color: rgb(137, 41, 98);
+    font-size: 24pt;
+    font-family: 'Garamond', sans-serif;
     text-align: center;
 }
 
 p {
     font-size: 12pt;
-    font-famiy: 'Helventica', sans-serif;
+    font-famiy: 'Helvetica', sans-serif;
     
-.column {
+.column1 {
   float: left;
   width: 33.33%;
 }
 
+.column2 {
+  float: center;
+  width: 33.33%;
+}
+   
+.column3 {
+  float: right;
+  width: 33.33%;
+}
+    
 /* The navbar container */
-.topnav {
+topnav {
   overflow: hidden;
   background-color: #333;
 }
 
 /* Navbar links */
-.topnav a {
+topnav a {
   float: left;
   display: block;
   color: #892962;
@@ -64,7 +66,7 @@ p {
 }
 
 /* Links - change color on hover */
-.topnav a:hover {
+ topnav a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -101,7 +103,10 @@ a {
   }
 
 img {
-    border-radius: 8px;
+    height: 100px
+    width: 100px
+    border: solid 1px black
+    border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 ul {
