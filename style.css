@@ -15,9 +15,9 @@ body:after {
 }
 
 h1 {
+    color: #FFFFFF;
     padding: 5px;
-    border-bottom-style: solid
-    color: rgb(137, 41, 98);
+    border-bottom-style: solid 1px #892962;
     font-size: 48pt;
     font-family: 'Garamond', sans-serif;
     text-align: center;
