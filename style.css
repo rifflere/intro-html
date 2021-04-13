@@ -67,55 +67,11 @@ button.purple:hover {
     
 div.columns {
     column-count:3;
-    column-gap:40;
+  align: center;
+    column-gap:50;
     column-rule: 1px solid;
-    column-width: 300px      
+    column-width: 250px      
     }
-    
-/* The navbar container */
-topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Navbar links */
-topnav a {
-  float: left;
-  display: block;
-  color: #892962;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Links - change color on hover */
- topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }    
-    
-    
-ul {
-    list-style-type: none;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    width: 200px;
-    font-size: 14pt;
-} 
-
 
 a {
     color: rgb(28, 33, 104);
@@ -125,17 +81,7 @@ a {
     vertical-align: bottom;
   }
     
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-    
-li {
-  display: inline;
-}
-    
-.footer {
+div.footer {
   background-color: #ffffff;
   text-align: center;
   padding: 10px;
