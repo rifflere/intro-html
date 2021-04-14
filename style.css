@@ -40,7 +40,7 @@ p {
 
 p.latin {
   font-family: "Times New Roman", Times, serif;
-  font-size: 40pt;
+  font-size: 35pt;
   font-style: italic;
 }
 
@@ -85,7 +85,7 @@ div.columns {
     column-gap:100;
     column-rule: 1px solid;
     column-width: 200px;
-  padding:100px;
+  padding:50px;
     }
     
 div.footer {
