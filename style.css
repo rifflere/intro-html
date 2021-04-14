@@ -98,6 +98,7 @@ button.purple:hover {
 a {
   color: #ffffff;
   border: 0 0 0 0;
+  text-decoration: none;
 }
     
 div.columns {
