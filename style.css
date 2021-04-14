@@ -46,7 +46,8 @@ p.caption {
 }
 
 p.latin {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
+  text-align: center;
   font-size: 35pt;
   font-style: italic;
   color: #cccccc;
