@@ -44,6 +44,11 @@ p.latin {
   font-style: italic;
 }
 
+li {
+  font-size: 14pt;
+    font-famiy: 'Helvetica', sans-serif;
+}
+
 img {
       display: block;
   margin-left: auto;
