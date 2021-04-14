@@ -20,7 +20,7 @@ h1 {
     font-size: 40pt;
     font-family: 'Georgia', serif;
     width: 400px;
-      text-align: center;
+      display: inline-block;
 }
 
 h2 {
