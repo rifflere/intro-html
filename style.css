@@ -46,7 +46,9 @@ p.latin {
 
 li {
   font-size: 14pt;
-    font-famiy: 'Helvetica', sans-serif;
+  font-famiy: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 img {
