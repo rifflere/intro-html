@@ -38,6 +38,11 @@ p {
   align: center;
 }
 
+p.caption {
+  text-align: center;
+  font-style: italic;
+}
+
 p.latin {
   font-family: "Times New Roman", Times, serif;
   font-size: 35pt;
