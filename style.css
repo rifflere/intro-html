@@ -68,7 +68,7 @@ img.profile {
   margin-bottom: 5px;
   height: 500px;
     width: 500px;
-    border-radius: 250px 250px 10px 250px;
+    border-radius: 250px 250px 5px 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
