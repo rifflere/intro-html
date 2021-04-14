@@ -88,7 +88,12 @@ button.purple {
     
 button.purple:hover {
   background-color: #e362af; 
-  color: white;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  border: none;
 }
     
 div.columns {
