@@ -93,7 +93,7 @@ div.columns {
 div.footer {
   background-color: #c9a7bc;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 
 body:after {
@@ -102,6 +102,6 @@ body:after {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 50px;
+    padding: 10px;
     font-size: 10pt;
 }
