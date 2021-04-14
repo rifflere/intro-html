@@ -66,9 +66,9 @@ img.profile {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
-  height: 240px;
-    width: 240px;
-    border-radius: 120px 120px 10px 120px;
+  height: 500px;
+    width: 500px;
+    border-radius: 250px 250px 10px 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
