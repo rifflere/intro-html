@@ -53,6 +53,8 @@ p.latin {
   text-align: center;
   font-size: 35pt;
   font-style: italic;
+  margin: 25px 0 0 0;
+  padding: 0;
   color: #cccccc;
 }
 
@@ -60,6 +62,8 @@ p.latintr {
     font-family: "Times New Roman", serif;
   text-align: center;
   font-size: 27pt;
+  margin: 0;
+  padding: 0;
   color: #cccccc;
 }
 
