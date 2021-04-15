@@ -21,6 +21,7 @@ h1 {
     font-size: 40pt;
     font-family: 'Georgia', serif;
     width: 30%;
+  display: inline-block;
 }
 
 h2 {
