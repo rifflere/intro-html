@@ -1,9 +1,9 @@
 div.purpleheader {
-  background-image: linear-gradient(#cccccc, #c9a7bc);;
+  background-image: linear-gradient(#c8b6bc, #c9a7bc);;
   width: 100%;
   padding: 2px;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 body {
