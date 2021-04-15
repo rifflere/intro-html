@@ -111,6 +111,7 @@ div.columns {
     column-gap:100;
     column-rule: 1px solid;
     column-width: 200px;
+  column-height: 600px;
   padding:60px 30px 30px 30px;
     }
     
