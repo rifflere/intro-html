@@ -51,7 +51,7 @@ p.caption {
 p.latin {
   font-family: "Times New Roman", serif;
   text-align: center;
-  font-size: 35pt;
+  font-size: 30pt;
   font-style: italic;
   color: #cccccc;
 }
@@ -111,7 +111,7 @@ div.columns {
     column-gap:100;
     column-rule: 1px solid;
     column-width: 200px;
-  column-height: 600px;
+  column-height: 700px;
   padding:60px 30px 30px 30px;
     }
     
